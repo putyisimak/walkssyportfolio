@@ -136,7 +136,7 @@ window.addEventListener('scroll', () => {
 
 // ── discord copy ──
 function copyDiscord() {
-  const tag = 'mando';          // ← change this to your actual Discord username
+  const tag = 'walkssy';
   navigator.clipboard.writeText(tag).then(() => {
     const label = document.getElementById('discord-label');
     label.textContent = 'Copied!';
