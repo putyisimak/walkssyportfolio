@@ -136,7 +136,7 @@ window.addEventListener('scroll', () => {
 
 // ── discord copy ──
 function copyDiscord() {
-  const tag = 'walkssy';
+  const tag = 'walkssy.';
   navigator.clipboard.writeText(tag).then(() => {
     const label = document.getElementById('discord-label');
     label.textContent = 'Copied!';
