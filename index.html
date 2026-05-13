@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mando — Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <nav>
+    <div class="nav-logo">mando<span class="dot">.</span></div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">Available for Projects</div>
+      <h1 class="hero-title">
+        <span class="line1">MANDO</span>
+        <span class="line2">DEVELOPER<span class="cursor">_</span></span>
+      </h1>
+      <p class="hero-sub">Full-stack developer & Minecraft community owner.<br>Built for servers that scale. Code that ships.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">800K<span class="plus">+</span></span>
+          <span class="stat-label">Community Members Reached</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">12<span class="plus">+</span></span>
+          <span class="stat-label">Servers & Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">17<span class="plus">+</span></span>
+          <span class="stat-label">Languages & Technologies</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary">View Experience</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="scroll-hint">scroll down</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-tag">// about</div>
+      <h2 class="section-title">Who am I?</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm <strong>Mando</strong> — a developer who started building for Minecraft communities and never stopped shipping. From writing backend systems for massive servers to owning and operating multiple networks, I've done it at every level of the stack.</p>
+          <p>I specialize in web backends, game server infrastructure, and building tools that real communities actually use. I've worked on projects reaching <strong class="highlight">800,000+ members</strong> and built platforms from the ground up.</p>
+          <p>Currently focused on full-stack web dev, Minecraft tooling, and growing <strong class="highlight">Shard Practice</strong> — my own PvP practice network.</p>
+        </div>
+        <div class="about-card glass-card">
+          <div class="about-card-row">
+            <span class="label">Focus</span>
+            <span>Full-Stack Dev</span>
+          </div>
+          <div class="about-card-row">
+            <span class="label">Specialty</span>
+            <span>MC Infrastructure</span>
+          </div>
+          <div class="about-card-row">
+            <span class="label">Web</span>
+            <span>LumenWEB, Node.js</span>
+          </div>
+          <div class="about-card-row">
+            <span class="label">Backend</span>
+            <span>Nginx + SSL, Go, Rust</span>
+          </div>
+          <div class="about-card-row">
+            <span class="label">Mobile</span>
+            <span>Swift, Kotlin</span>
+          </div>
+          <div class="about-card-row">
+            <span class="label">Status</span>
+            <span class="status-dot-wrap"><span class="status-dot"></span> Open to Work</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-inner">
+      <div class="section-tag">// experience</div>
+      <h2 class="section-title">Where I've worked</h2>
+
+      <div class="exp-highlight glass-card">
+        <div class="exp-highlight-badge">Largest Project</div>
+        <div class="exp-highlight-content">
+          <div class="exp-highlight-icon">🏆</div>
+          <div>
+            <h3>DonutSMP — Senior Moderator</h3>
+            <p>Part of the staff team at one of the biggest Minecraft communities — <strong>800,000+ members</strong>. Managed large-scale moderation, player relations, and contributed to server operations at scale.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-grid">
+        <div class="exp-card glass-card owner">
+          <div class="exp-role">Owner</div>
+          <h3>Shard Practice</h3>
+          <p>Built and operate my own PvP practice network. Full ownership — development, infrastructure, community management, and tier list tooling.</p>
+          <div class="exp-tags">
+            <span>Java</span><span>Node.js</span><span>Infrastructure</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card owner">
+          <div class="exp-role">Owner</div>
+          <h3>Shard Tier List</h3>
+          <p>Created and maintain the official Shard tier list system — includes a Fabric client mod (1.21.x), Discord bot, and web API for tracking player rankings.</p>
+          <div class="exp-tags">
+            <span>Fabric Mod</span><span>Discord Bot</span><span>REST API</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card owner">
+          <div class="exp-role">Owner</div>
+          <h3>Frosted Network / FrostedSMP</h3>
+          <p>Founded and ran Frosted Network — managed the entire stack from server infrastructure to player experience, events, and development.</p>
+          <div class="exp-tags">
+            <span>Server Ops</span><span>Dev</span><span>Management</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card dev">
+          <div class="exp-role">Developer</div>
+          <h3>Prism SMP</h3>
+          <p>Developed features and backend systems for PrismSMP, one of the most well-known Minecraft content creator servers.</p>
+          <div class="exp-tags">
+            <span>Java</span><span>Skript</span><span>Backend</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card dev">
+          <div class="exp-role">Developer</div>
+          <h3>Pixle SMP</h3>
+          <p>Built game mechanics and custom plugin features for PixleSMP's gameplay systems.</p>
+          <div class="exp-tags">
+            <span>Java</span><span>Plugins</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card dev">
+          <div class="exp-role">Developer</div>
+          <h3>Ideal Vanilla</h3>
+          <p>Contributed development work to IdealVanilla's server systems and tooling.</p>
+          <div class="exp-tags">
+            <span>Java</span><span>Skript</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card dev">
+          <div class="exp-role">Developer</div>
+          <h3>PvP Land</h3>
+          <p>Developed PvP-focused mechanics, matchmaking systems, and custom gameplay features.</p>
+          <div class="exp-tags">
+            <span>Java</span><span>PvP Systems</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card dev">
+          <div class="exp-role">Developer</div>
+          <h3>MCPrac</h3>
+          <p>Practice server development — ranked queues, kit management, and performance-critical systems.</p>
+          <div class="exp-tags">
+            <span>Java</span><span>Redis</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card dev">
+          <div class="exp-role">Developer</div>
+          <h3>EuropePrac</h3>
+          <p>EU-region practice network — worked on infrastructure and plugin development for low-latency gameplay.</p>
+          <div class="exp-tags">
+            <span>Java</span><span>Infrastructure</span>
+          </div>
+        </div>
+
+        <div class="exp-card glass-card dev">
+          <div class="exp-role">Developer</div>
+          <h3>Apple PvP</h3>
+          <p>Plugin and feature development for ApplePvP's competitive gameplay environment.</p>
+          <div class="exp-tags">
+            <span>Java</span><span>Plugins</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-tag">// skills</div>
+      <h2 class="section-title">What I code with</h2>
+
+      <div class="skills-categories">
+        <div class="skill-group glass-card">
+          <h3 class="skill-group-title"><span class="skill-icon">🌐</span> Web & Backend</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">LumenWEB</span><div class="skill-bar"><div class="skill-fill" data-w="88"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Node.js</span><div class="skill-bar"><div class="skill-fill" data-w="92"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Nginx + SSL</span><div class="skill-bar"><div class="skill-fill" data-w="85"></div></div></div>
+            <div class="skill-item"><span class="skill-name">PHP</span><div class="skill-bar"><div class="skill-fill" data-w="78"></div></div></div>
+            <div class="skill-item"><span class="skill-name">HTML / CSS</span><div class="skill-bar"><div class="skill-fill" data-w="95"></div></div></div>
+            <div class="skill-item"><span class="skill-name">SQL</span><div class="skill-bar"><div class="skill-fill" data-w="80"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card">
+          <h3 class="skill-group-title"><span class="skill-icon">⚙️</span> Systems & Languages</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">JavaScript / TS</span><div class="skill-bar"><div class="skill-fill" data-w="90"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Python</span><div class="skill-bar"><div class="skill-fill" data-w="82"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Go</span><div class="skill-bar"><div class="skill-fill" data-w="75"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Rust</span><div class="skill-bar"><div class="skill-fill" data-w="68"></div></div></div>
+            <div class="skill-item"><span class="skill-name">C++</span><div class="skill-bar"><div class="skill-fill" data-w="72"></div></div></div>
+            <div class="skill-item"><span class="skill-name">C#</span><div class="skill-bar"><div class="skill-fill" data-w="74"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card">
+          <h3 class="skill-group-title"><span class="skill-icon">📱</span> Mobile & Scripting</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">Swift</span><div class="skill-bar"><div class="skill-fill" data-w="76"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Kotlin</span><div class="skill-bar"><div class="skill-fill" data-w="79"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Lua</span><div class="skill-bar"><div class="skill-fill" data-w="83"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Java (Fabric/Bukkit)</span><div class="skill-bar"><div class="skill-fill" data-w="91"></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tech-badges">
+        <span class="badge">Node.js</span>
+        <span class="badge">Fabric Mods</span>
+        <span class="badge">Nginx</span>
+        <span class="badge">Discord.js</span>
+        <span class="badge">REST APIs</span>
+        <span class="badge">Skript</span>
+        <span class="badge">Redis</span>
+        <span class="badge">MySQL</span>
+        <span class="badge">Git</span>
+        <span class="badge">Linux</span>
+        <span class="badge">Docker</span>
+        <span class="badge">Gradle</span>
+        <span class="badge">LumenWEB</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner contact-inner">
+      <div class="section-tag">// contact</div>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="contact-sub">Got a server, project, or idea that needs a developer? I'm open to freelance work, collaborations, and new opportunities.</p>
+      <div class="contact-cards">
+        <a href="https://github.com/putyisimak" class="contact-card glass-card" target="_blank">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </div>
+          <span>GitHub</span>
+        </a>
+        <div class="contact-card glass-card" id="discord-card" onclick="copyDiscord()">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.001.022.01.043.027.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+          </div>
+          <span id="discord-label">Discord — click to copy</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">mando<span class="dot">.</span></span>
+      <span class="footer-copy">Built from scratch. © 2025 Mando.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
