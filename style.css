@@ -484,6 +484,13 @@ section {
   color: var(--blue3);
 }
 
+/* ── PAST EXPERIENCE ── */
+#past-experience { background: var(--bg); }
+
+.exp-card.past::before { background: linear-gradient(90deg, #334, #556); }
+.exp-card.past .exp-role { color: var(--muted); }
+.exp-card.past { opacity: 0.8; }
+
 /* ── SKILLS ── */
 #skills { background: var(--bg); }
 
